@@ -76,7 +76,7 @@ precedence):
 ### Ruby
 
 ```ruby
-require "proxifier/proxy"
+require "proxifier"
 
 proxy = Proxifier::Proxy("socks://localhost")
 socket = proxy.open("www.google.com", 80)
